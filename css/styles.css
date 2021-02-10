@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('reset.css');
+@import url('variables.css');
+/* Components */
+@import url('components/status-bar.css');
+/* Screens */
+@import url('screens/welcom-header.css');
+@import url('screens/login-form.css');
+
+body {
+    font-family: 'Pangolin', cursive;
+}

@@ -1,0 +1,40 @@
+.status-bar {
+    /* Display */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* Box */
+    padding: 3px 5px;
+}
+
+.status-bar__column {
+    /* Box */
+    width: calc(100% / 3);
+}
+
+.status-bar__column:first-child {
+    /* Display */
+    display: flex;
+}
+
+.status-bar__column:first-child span{
+    /* Box */
+    margin-right: 5px;
+}
+
+.status-bar__column:nth-child(2) {
+    /* Display */
+    display: flex;
+    justify-content: center;
+}
+
+.status-bar__column:last-child {
+    /* Display */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.status-bar__column:last-child .fa-battery-full {
+    /* Box */
+    margin: 0px 4px;
+}
