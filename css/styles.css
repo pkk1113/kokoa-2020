@@ -3,9 +3,12 @@
 @import url('variables.css');
 /* Components */
 @import url('components/status-bar.css');
+@import url('components/nav-bar.css');
+@import url('components/screen-header.css');
 /* Screens */
 @import url('screens/welcom-header.css');
 @import url('screens/login-form.css');
+@import url('screens/friends.css');
 
 body {
     /* Box */
