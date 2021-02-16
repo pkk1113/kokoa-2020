@@ -17,3 +17,8 @@ body {
     /* Text */
     font-family: 'Pangolin', cursive;
 }
+
+.main-screen {
+    /* Box */
+    padding: 0px var(--horizontal-space);
+}
