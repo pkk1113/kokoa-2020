@@ -5,6 +5,7 @@
     align-items: center;
     /* Box */
     padding: var(--horizontal-space);
+    margin-bottom: 15px;
 }
 
 .screen-header__title {

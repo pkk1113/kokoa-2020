@@ -7,6 +7,10 @@
 }
 
 .user-component__column:last-child {
+    /* Display */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -39,12 +43,11 @@
     height: 70px;
 }
 
-
 .user-component__title {
     /* Text */
     font-size: 25px;
 }
-p
+
 .user-component__subtitle {
     /* Box */
     margin-left: 10px;
@@ -52,4 +55,13 @@ p
     color: rgba(0, 0, 0, 0.5);
     /* Text */
     font-size: 18px;
+}
+
+.user-component__time {
+    /* Display */
+    display: block;
+    /* Box */
+    margin-bottom: 5px;
+    /* Text */
+    font-size: 20px;
 }
