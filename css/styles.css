@@ -8,12 +8,14 @@
 @import url('components/user-component.css');
 @import url('components/badge.css');
 @import url('components/icon-row.css');
+@import url('components/alt-header.css');
 /* Screens */
 @import url('screens/welcom-header.css');
 @import url('screens/login-form.css');
 @import url('screens/friends.css');
 @import url('screens/find.css');
 @import url('screens/more.css');
+@import url('screens/settings.css');
 
 body {
     /* Box */
