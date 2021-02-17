@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body id="chat-screen">
+    <!-- Status Bar -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>10:25</span>
+        </div>
+        <div class="status-bar__column">
+            <span>70%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html"><i class="fas fa-angle-left fa-3x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alg-header__title">Keon-Kuk Park</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-2x"></i></span>
+            <span><i class="fas fa-bars fa-2x"></i></span>
+        </div>
+    </header>
+
+    <!-- Main Screen -->
+    <main class="main-screen main-chat">
+        <section class="chat__timestamp">
+            <span>Monday, Oct 22, 2022</span>
+        </section>
+
+        <div class="message-row">
+            <img src="https://avatars.githubusercontent.com/u/18704182?s=60&v=4">
+            <div class="message-row__contents">
+                <span class="message__author">Keon-Kuk Park</span>
+                <span class="message__info">
+                    <span class="message__bubble">Who Are You?</span>
+                    <span class="message__timestamp">10:22</span>
+                </span>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__contents">
+                <span class="message__info">
+                    <span class="message__bubble">Hello Me, It's You!</span>
+                    <span class="message__timestamp">10:23</span>
+                </span>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="https://avatars.githubusercontent.com/u/18704182?s=60&v=4">
+            <div class="message-row__contents">
+                <span class="message__author">Keon-Kuk Park</span>
+                <span class="message__info">
+                    <span class="message__bubble">What The ?!</span>
+                    <span class="message__timestamp">10:24</span>
+                </span>
+            </div>
+        </div>
+    </main>
+
+    <!-- Chat Input Bar -->
+    <div class="chat-bar">
+        <div class="chat-form">
+            <div class="chat-form__icon"><i class="far fa-plus-square fa-2x"></i></div>
+            <div class="chat-form__input"></div>
+            <div class="chat-form__extra-input">
+                <div class="chat-form__icon"><i class="far fa-kiss-wink-heart fa-2x"></i></div>
+                <div class="chat-form__icon"><i class="fas fa-hashtag fa-2x"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2b64509284.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
